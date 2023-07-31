@@ -1,7 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
 
 namespace BenchmarkExample2;
-internal class IntroBenchmarkBaseline
+public class IntroBenchmarkBaseline
 {
     [Benchmark]
     public void Time50() => Thread.Sleep(50);
