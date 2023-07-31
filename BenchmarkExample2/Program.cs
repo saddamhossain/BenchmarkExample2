@@ -1,6 +1,6 @@
 ﻿using BenchmarkDotNet.Running;
 using BenchmarkExample2;
 
-BenchmarkRunner.Run < nameof(IntroBenchmarkBaseline) > ();
+BenchmarkRunner.Run<IntroBenchmarkBaseline>();
 
 Console.ReadKey();
