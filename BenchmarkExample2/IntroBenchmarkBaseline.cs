@@ -1,6 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
 
 namespace BenchmarkExample2;
+
 public class IntroBenchmarkBaseline
 {
     [Benchmark]
