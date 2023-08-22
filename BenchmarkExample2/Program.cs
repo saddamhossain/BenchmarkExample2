@@ -2,4 +2,5 @@
 using BenchmarkExample2;
 
 BenchmarkRunner.Run<IntroBenchmarkBaseline>();
+
 Console.ReadKey();
